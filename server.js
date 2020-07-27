@@ -21,7 +21,6 @@ connection.on("error", (err) => {
     console.log("Mongoose connection error: ", err);
 });
 
-
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`)
 });
